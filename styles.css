@@ -7,7 +7,10 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: lightgray;
+    background-color: black;
+    color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 ul {
     list-style: none;
@@ -15,29 +18,29 @@ ul {
 a {
     text-decoration: none;
     color: lightgray;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 img {
-    max-width: 100%;
+    max-width: 400px;
 }
 .container {
-    max-height: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 30px;
 }
 .navbar {
     background-color: #1f2937;
     color: white;
-    height: 60px;
+    height: 50px;
 }
 .logo {
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
 }
 .navbar .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 
@@ -45,4 +48,126 @@ img {
 .nav {
     display: flex;
     gap: 1rem;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+
+}
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f9faf8;
+    line-height: 1;
+}
+.headertext {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+}
+.header p {
+    font-size: 18px;
+    color: lightgray;
+}
+.header .container {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+.boxes {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 125px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.box div {
+    height: 125px;
+    width: 125px;
+    border: 3px #3882f6 solid;
+    border-radius: 10px;
+}
+.boxes .container {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+}
+.box1 {
+    background-color: #e5e7eb;
+    height: 400px;
+    color: #1f2937;
+}
+.box1 .container {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.box1 .container h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+.box1 .container p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+.signup {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup .sign {
+    background-color: #3882f6;
+    width: 800px;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup .sign p {
+    color: lightgray;
+}
+.button2 {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    border-color: #e5e7eb;
+}
+.footer {
+    background-color: #1f2937;
+    height: 65px;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
