@@ -20,6 +20,9 @@ a {
     color: lightgray;
     font-size: 14px;
 }
+a:hover {
+    color: darkgrey;
+}
 
 img {
     max-width: 400px;
@@ -72,6 +75,9 @@ img {
     padding: 5px;
     border-radius: 7px;
     border: none;
+}
+.button:hover {
+    background-color: #376abc;
 }
 .header p {
     font-size: 18px;
@@ -151,6 +157,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
 }
 .signup .sign p {
     color: lightgray;
@@ -161,7 +168,11 @@ h2 {
     width: 100px;
     padding: 5px;
     border-radius: 7px;
-    border-color: #e5e7eb;
+    border-color: white;
+    border-style: solid;
+}
+.button2:hover {
+    background-color: #376abc;
 }
 .footer {
     background-color: #1f2937;
